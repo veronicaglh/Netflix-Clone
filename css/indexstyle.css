@@ -195,35 +195,150 @@ body{
     top:-20px;
 }
 
+
+
 .SuspensfulTVShows{
+    margin-left: 30px;
     display:flex; 
     flex-direction: row;
-    margin-left: 100px;
-    padding: 0%;
 }
 
-.SuspensfulTVShows div:hover{
-    transform: scale(1.08);
+.AdventureTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+  
 }
+.AnimationTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.ComedyTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.CrimeTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+
+.DocumentaryTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.DramaTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+
+.FamilyTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+
+.FantasyTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+
+.HistoryTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.HorrorTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.MusicTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.MysteryTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+
+.RomanceTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.ScienceFictionTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.TVMovieTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.ThrillerTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.WarTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
+.WesternTVShows{
+    margin-left: 30px;
+    display:flex; 
+    flex-direction: row;
+}
+
 
 p{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 80px;
-    /* margin-top: 80px; */
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 600; 
 }
 
-.SuspensfulTVShows div{
-    border: 1px #ccc solid;
-    padding:35px;
-    width: 160px;
-    height: 70px;
-    border-radius: 6px;
-    margin-right: 6px;
-    /* background-image: url("/images/moviethumbnail.jfif"); */
+
+.Image1{
+    padding:10px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 3px;
+    margin-top: 130px;
+    
 }
 
+
+.Image1:hover{
+    transform: scale(1.15);
+}
 
 
 
