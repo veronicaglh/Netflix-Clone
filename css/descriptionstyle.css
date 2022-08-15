@@ -1,0 +1,238 @@
+@font-face {
+    src: url(/fonts/NetflixSans-Regular.otf );
+    font-family:"NetflixFont";  /*Font for the body*/
+
+}
+
+body{
+    font-family: "NetflixFont";
+    background-color: rgb(36, 36, 36);
+    color: #FFFFFF;
+}
+
+.MainContainer{
+    margin: auto;
+    width:max-content;
+    background-color: #141414;
+    border-radius:20px;
+}
+.ContainerOne {
+   background-image: url("/images/BreakingBadDescription.png");
+   background-size: 100%;
+   height: 400px;
+   width: 730px;
+   background-color: #141414;
+}
+
+.BreakingBadLogo{
+    max-height: 300px;
+    max-width: 300px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.PlayIcon{
+    max-height: 15px;
+    max-width: 15px;
+    padding-right: 5px;
+
+}
+.PlayButton{
+    padding: 5px;
+    max-width: 100px;
+    max-height: 70px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 3px;
+    border: none;
+    margin-left: -300px;
+    position: relative;
+    top: 60px;
+}
+
+.AddIcon{
+    max-height: 25px;
+    max-width: 25px;
+    padding-right: 5px;
+    position: relative;
+    top: 65px;
+    left:10px;
+
+}
+
+.LikeIcon{
+    max-height: 55px;
+    max-width: 55px;
+    padding-right: 5px;
+    position: relative;
+    top: 65px;
+    left: 10px;
+
+}
+
+.ExitIcon{
+    max-height: 15px;
+    max-width: 15px;
+    float: right;
+    position: relative;
+    right: 10px;
+    top:10px;
+}
+
+.AudioIcon{
+    max-height: 25px;
+    max-width: 25px;
+    float: right;
+    position: relative;
+    top: 320px;
+}
+
+
+.Text{
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 40px;
+  
+}
+.GreenText{
+    color: #45D269;
+}
+.BorderText{
+    border:0.5px gray solid;
+   
+}
+.TextDescription{
+    width: max-content;
+    float: right;
+    font-size: 12px;
+    margin-top: -110px;
+}
+span{
+    color: gray;
+}
+.Episodes{
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
+.Seasons{
+    float: right;
+    margin-top: -70px;
+    margin-right: 60px;
+    font-weight: 300;
+    font-size: medium;
+    padding: 10px;
+    width:110px;
+    height: 20px;
+    border: 2px #4D4D4D solid;
+    border-radius: 3px;
+    background-color: #242424;
+    
+}
+.DropDownArrow{
+    max-width: 12px;
+    max-height: 12px;
+    margin-left: 20px;
+}
+hr{
+    border: none;
+    height: 2px;
+    color: #333;
+    background-color: #333; 
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+
+
+
+
+.ContainerThree{
+    display:flex; 
+    flex-direction: column;
+    margin-left: 40px;
+    border:none;
+    min-height: fit-content;
+    background-color: #141414;
+} 
+
+.ContainerThree:hover{
+    background-color: rgba(238, 217, 217, 0.075);
+} 
+
+.ContainerThree div{
+    border: 1px #ccc solid;
+    background-color: #141414;
+    padding:35px;
+    width: 160px;
+    height: 70px;
+    border-radius: 6px;
+    margin-top:15px;
+ } 
+
+.EpisodeTitle{
+    margin-left: 250px;
+    font-size: medium;
+    margin-top: -110px;
+}
+
+.EpisodeDescription{
+    color: #D2D2D2;
+    margin-left: 250px;
+    font-weight: 200;
+    font-size: small;
+    margin-top: -10px;
+} 
+.EpisodeBreak{
+    margin-top:70px;
+    border: none;
+    height: 2px;
+    color: #333;
+    background-color: #333; 
+    margin-left: 40px;
+    margin-right: 60px;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+.FlexContainer{
+    display:flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 40px;
+    background-color: #141414;
+ 
+}
+.FlexContainer div{
+    border: 1px #ccc solid;
+    background-image: url("/images/BreakingBadImage.jpg");
+    background-repeat:no-repeat;
+    background-size:310px 170px;
+    background-color: #2F2F2F;
+    padding:35px;
+    width: 140px;
+    max-height: fit-content;
+    border-radius: 4px;
+    margin-top:25px;
+        background-color: #141414;
+
+ } 
+.CollectionTitle{
+    margin-top: -15px; 
+    font-size: small;
+    font-weight: 100;
+}
+.CollectionDescription{
+    font-size: small;
+    font-weight: 100;
+}
+
+.MatchPercentage{
+    color: #45D269;
+    margin-top: 140px;
+    font-size: medium;
+}
+
+

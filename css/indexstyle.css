@@ -64,31 +64,6 @@ body{
     max-width: 10px;
     position: relative; 
     top:-5px;
-    /* border-radius: 5px;
-    padding-left: 320px; */
-
-}
-
-
-/*Navigation 2*/
-.nav2 ul{
-    text-align: right;
-    margin-bottom: 90px;
-    
-}
-.nav2 img{
-    max-height: 20px;
-    max-width:20px;
-    border-radius: 5px;
-}
-
-.nav2 li{ 
-    display: inline; 
-    padding: 10px 12px;
-}
-
-.nav2 li:hover{
-    font-weight: 700;
 }
 
 .NetflixIcon{
