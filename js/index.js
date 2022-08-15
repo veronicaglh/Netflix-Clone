@@ -1,4 +1,6 @@
 import { BASE_URL, API_KEY, IMAGE_URL } from "./constantValues.js";
+// img url 
+const img_url = "https://image.tmdb.org/t/p/original";
 
 const actionListView = document.querySelector(".SuspensfulTVShows");
 const adventureShowListView = document.querySelector(".AdventureTVShows");
@@ -51,6 +53,32 @@ const requests = {
   };
 
 
+//For Alternating Background (Main)
+
+
+// used to truncate the string 
+function truncate(str, n) {
+  return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+} 
+
+
+fetch(requests.fetchPlayingNowList)
+.then((res) => res.json())
+.then((data) => {
+// every time the page reloads the movie will change 
+const setMovie = data.results[Math.floor(Math.random() * 20)];
+console.log(setMovie);
+var banner = document.querySelector(".SectionOne_Container");
+var banner_title = document.getElementById("banner__title");
+var banner__desc = document.getElementById("banner__description");
+banner.style.backgroundImage = "url(" + img_url + setMovie.backdrop_path + ")";
+banner__desc.innerText = truncate(setMovie.overview, 150);
+banner_title.innerText = setMovie.title;
+})
+
+
+
+//For Movie Posters 
 fetch(requests.fetchGenreList)
 .then(res => res.json()) 
 .then(data => 
