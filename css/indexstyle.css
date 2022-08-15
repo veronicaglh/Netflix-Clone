@@ -1,0 +1,256 @@
+/* Section One */ 
+@font-face {
+    src: url(/fonts/NetflixSans-Regular.otf );
+    font-family:"NetflixFont";  /*Font for the body*/
+
+}
+
+body{
+    font-family: "NetflixFont";
+    background-color: #141414;
+    color: #FFFFFF; 
+} 
+
+
+.SectionOne_Container {
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/NetflixBackgroundImage.webp"); */
+   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 20%, rgba(0,0,0,1)), url("/images/");
+   background-color: linear-gradient(to bottom, rgba(0,0,0,0) 20%, #141414);
+   height: 660px;  
+}
+
+
+/*Navigation*/
+.LogoImage{
+    max-height: 100px;
+    max-width: 100px;
+    float: left;
+    position: relative; 
+    top:-5px;
+}
+
+.nav1 ul{
+   
+    text-align:left;
+}
+
+.nav1 li{ 
+    display: inline; 
+    padding: 10px 12px;
+}
+
+.nav1 li:hover{
+    font-weight: 700;
+}
+
+.nav_Image{
+    max-height: 15px;
+    max-width:20px;
+    border-radius: 5px;
+    padding-right: 20px;
+
+}
+
+.nav_Image_Search{
+    max-height: 15px;
+    max-width:20px;
+    border-radius: 5px;
+    padding-left: 360px;
+
+}
+
+.nav_Image_Dropdown{
+    max-height: 10px;
+    max-width: 10px;
+    position: relative; 
+    top:-5px;
+    /* border-radius: 5px;
+    padding-left: 320px; */
+
+}
+
+
+/*Navigation 2*/
+.nav2 ul{
+    text-align: right;
+    margin-bottom: 90px;
+    
+}
+.nav2 img{
+    max-height: 20px;
+    max-width:20px;
+    border-radius: 5px;
+}
+
+.nav2 li{ 
+    display: inline; 
+    padding: 10px 12px;
+}
+
+.nav2 li:hover{
+    font-weight: 700;
+}
+
+.NetflixIcon{
+    max-height: 20px;
+    max-width: 20px;
+    margin-top: 180px;
+    position: relative;
+    margin-left:-25px;
+
+}
+.SeriesText{
+    font-weight: lighter;
+    margin-left: 165px;
+    margin-top: -20px;
+    font-size: 10px;
+    letter-spacing: 5px;
+    position: relative;
+    left:-25px;
+    
+}
+.OneText{
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: 800;
+    margin-left: 100px;
+}
+
+.DayText{
+    font-family: Helvetica;
+    font-size: 80px;
+    font-weight: 800;
+    margin-left: 180px;
+    margin-top: -110px;
+  
+}
+
+.AtText{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 800; 
+    margin-left: 130px;
+    margin-top: -150px;
+}
+
+.AText{
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: 800; 
+    margin-left: 140px;
+    margin-top: -80px;
+}
+.TimeText{
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: 800; 
+    margin-left: 173px;
+    margin-top: -110px;
+    padding: 0%;
+}
+.PlayIcon{
+    max-height: 15px;
+    max-width: 20px;
+    margin-right: 10px;
+
+}
+.PlayButton{
+    margin-left: 100px;
+    margin-right:5px;
+    min-width:120px;
+    /* margin-top: 0px; */
+    padding: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 6px;
+    border: none;
+}
+
+.MoreInfoButton{
+    background-color: rgb(124, 123, 127);
+    color: #FFFFFF;
+    padding: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    width: 130px;
+    border-radius: 6px;
+    border: none;
+    margin-top: -60px;
+}
+.AudioPortion{
+    display: flex;
+    float: right;
+  }
+  
+.AudioPortion img {
+    padding: 0px;
+    border-radius: 50%;
+    border: 3px solid white;
+    float:right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    opacity: 0.6;
+    position: relative;
+    left:90px;
+  }
+  
+.AudioPortion p {
+    padding-right: 45px;
+    height:35px;
+    position: relative;
+    bottom:80px;
+    border-left: 3.5px solid rgb(199, 199, 199);
+    background-color: rgb(62, 62, 62, 0.5);
+    color: white;
+    font-size: 18px;
+  }
+
+.MovieSubtitles{
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    box-shadow: #141414 10px;
+    color: #F1F1F1;
+    position: relative;
+    top:-20px;
+}
+
+.SuspensfulTVShows{
+    display:flex; 
+    flex-direction: row;
+    margin-left: 100px;
+    padding: 0%;
+}
+
+.SuspensfulTVShows div:hover{
+    transform: scale(1.08);
+}
+
+p{
+    margin-left: 100px;
+    margin-top: 80px;
+    /* margin-top: 80px; */
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.SuspensfulTVShows div{
+    border: 1px #ccc solid;
+    padding:35px;
+    width: 160px;
+    height: 70px;
+    border-radius: 6px;
+    margin-right: 6px;
+    /* background-image: url("/images/moviethumbnail.jfif"); */
+}
+
+
+
+
+
+
