@@ -1,4 +1,4 @@
-import { BASE_URL, API_KEY, IMAGE_URL } from "./constantValues.js";
+import { BASE_URL, API_KEY, IMAGE_URL } from "./constants.js";
 // img url 
 const img_url = "https://image.tmdb.org/t/p/original";
 
